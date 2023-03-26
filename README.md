@@ -19,7 +19,14 @@ Make sure to install
 
 `bazel run @hedron_compile_commands//:refresh_all`
 
+The toolchain is identical one leaveraged by Pigweed.
 Other reference:
 1. https://github.com/hedronvision/bazel-compile-commands-extractor
 1. https://github.com/bazelembedded/rules_cc_toolchain
 1. https://bazel.build/docs/bazel-and-cpp
+
+
+# Run all test with output
+```
+bazel test //... --test_output=all
+```
