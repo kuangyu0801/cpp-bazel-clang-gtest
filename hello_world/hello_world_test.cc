@@ -1,5 +1,6 @@
-#include "gtest/gtest.h"
 #include "public/hello_world.h"
+
+#include "gtest/gtest.h"
 
 // Demonstrate some basic assertions.
 TEST(HelloTest, BasicAssertions) {
@@ -10,6 +11,6 @@ TEST(HelloTest, BasicAssertions) {
 }
 
 TEST(HelloTest, HelloWorldAdd) {
-  EXPECT_EQ(Add(1,3), 4);
-  EXPECT_EQ(Add(2,6), 8);
+  EXPECT_EQ(Add(1, 3), 4);
+  EXPECT_EQ(Add(2, 6), 8);
 }
